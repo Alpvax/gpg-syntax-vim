@@ -1,7 +1,7 @@
 " Vim syntax file
-" Language: Celestia Star Catalogs
-" Maintainer: Kevin Lauder
-" Latest Revision: 26 April 2008
+" Language: Gas Powered Games skrit
+" Maintainer: Alpvax
+" Latest Revision: 05/10/2018
 
 if exists("b:current_syntax")
   finish
@@ -25,7 +25,7 @@ syn match skrState "state\|poll\|transition\|and\|startup\|setstate\|if\|->"
 syn match skrDirect "#include #option"
 syn region skrOnly start="#only(" end=")" transparent
 syn region skrOnlyContent start="\[\[" end="\]\]" fold transparent
-"syn match skrUSymbol "\w\+\$"
+syn match skrUSymbol "\w\+\$"
  
 let b:current_syntax = "skrit"
 
