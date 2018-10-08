@@ -1,1 +1,1 @@
-au BufNewFile,BufRead *.skrit,*.gas set filetype=skrit
+au BufNewFile,BufRead *.skrit set filetype=skrit
